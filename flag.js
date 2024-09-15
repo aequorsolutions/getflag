@@ -3,7 +3,7 @@ const axios = require('axios');
 async function getFlag() {
     try {
         // URL onde a flag.txt está localizada
-        const flagUrl = 'http://localhost/path/to/flag.txt'; // Substitua pelo caminho correto
+        const flagUrl = 'flag.txt'; // Substitua pelo caminho correto
 
         // Faz uma requisição para acessar a flag.txt
         const response = await axios.get(flagUrl);
